@@ -1,0 +1,118 @@
+body{
+    font-size: 1.5rem;
+    line-height: 1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    background-image: url("/IMG/recent.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+header{
+     padding: 10px;
+     display: inline;
+     
+
+}
+h1{
+    color: white;
+}
+.search_sign{
+    float: right;
+    margin-right: 10%;
+}
+section{
+    text-align: center;
+    margin-top: 15%;
+}
+p{
+    font-size: small;
+    color: white;
+}
+input[type="text"]{
+    width: 15rem;
+    height: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.685);
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+}
+input:placeholder-shown{
+    font-family: Arial, Helvetica, sans-serif;
+}
+input[type="button"]{
+    background-color: red;
+    border: none;
+    padding: 7px;
+    border-radius: 2px;
+    color: white;
+    margin-left: 5px;
+}
+button{
+    padding: 0 20px 0 10px;
+    height: 2rem;
+    background-color: red;
+    border: none;
+    color: white;
+}
+#ico{
+    position: relative;
+    /* top: .3rem; */
+    left: 5px;
+    color: white;
+}
+img{
+    width: 15vw;
+    float: left;
+    position: relative;
+    bottom: 3vw;
+}
+span.search{
+    border: 0 solid white;
+    padding: 1pex;
+    position: relative;
+    top: 5px;
+    background-color: rgba(0, 0, 0, 0.801);
+}
+select, select:active, select:visited{
+    background: none;
+    border: none;
+    color: white;
+    position: relative;
+    bottom: 5px;
+}
+option{
+    background-color: rgba(0, 0, 0, 0.678);
+    color: black;
+}
+
+@media screen and (max-width: 800px){
+    header{
+        padding: 10px;
+        display: inline;
+   }
+
+   img{
+    width: 30vw;
+    float: left;
+    position: relative;
+    bottom: 5vw;
+}
+span{
+    border: 0 solid white;
+    padding: 1px;
+    position: relative;
+    top: 5px;
+    background-color: rgba(0, 0, 0, 0.801);
+    border-radius: 10px;
+}
+h1{
+    font-size: 5vw;
+    color: white;
+}
+
+section{
+    text-align: center;
+    margin-bottom: 20%;
+}
+}
